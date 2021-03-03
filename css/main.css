@@ -9,5 +9,36 @@
 
 body nav {
   padding: 0px 20px;
+  height: 60px;
+}
+
+body nav li {
+  margin-right: 15px;
+}
+
+body nav button {
+  background-color: #0051ff;
+  padding: 0px 40px;
+}
+
+body nav nav {
+  width: 100%;
+}
+
+body nav nav .navbar-toggler .navbar-toggler-icon {
+  border: none;
+}
+
+body nav nav .navbar-toggler .navbar-toggler-icon active {
+  border: none;
+}
+
+body .carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+body .carousel img {
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

@@ -89,6 +89,10 @@ body .carousel .slide2 h2 {
   font-size: 60px;
 }
 
+body .carousel .slide2 #explore {
+  color: white;
+}
+
 body .carousel .slide3 .slideimg3 {
   height: 810px;
   overflow: hidden;
@@ -145,22 +149,38 @@ body .carousel .slide4 .slidetxt4 h2 {
 
 body .container1 {
   background-color: #0051ff;
+  height: 500px;
 }
 
-body .container1 h3 {
+body .container1 .professionalcont1 {
+  width: 50%;
+  margin: 0px;
+  float: left;
+}
+
+body .container1 .professionalcont1 h3 {
   font-size: 60px;
+  width: 90%;
   text-decoration: overline;
   color: white;
   font-weight: 700;
   text-align: left;
-  padding: 80px 150px 50px;
+  padding: 80px 150px 20px;
+}
+
+body .container1 .professionalcont1 img {
+  width: 60%;
+  margin: 0 150px;
 }
 
 body .container1 p {
   color: white;
   font-size: 20px;
   width: 80%;
+  font-weight: 600;
+  line-height: 40px;
   margin: 10px 150px;
+  padding-top: 70px;
   text-align: left;
 }
 
@@ -170,9 +190,10 @@ body .container2 {
 }
 
 body .container2 .row {
+  padding-top: 40px;
   background-color: white;
   margin: auto;
-  width: 80%;
+  width: 82%;
   margin-bottom: 0px;
 }
 
@@ -191,8 +212,74 @@ body .container2 .row img {
 
 body .containerbg {
   background-color: #0051ff;
-  height: 100px;
+  height: 50px;
   width: 100%;
   margin: 0;
+}
+
+body .container3 h3 {
+  font-size: 60px;
+  text-decoration: overline;
+  color: #0051ff;
+  font-weight: 700;
+  text-align: left;
+  padding: 80px 150px 50px;
+}
+
+body .container3 p {
+  color: #313131;
+  font-size: 25px;
+  width: 80%;
+  margin: 10px 150px;
+  text-align: left;
+}
+
+body .container3 .map {
+  width: 80%;
+  margin: 0 100px;
+}
+
+body .container3 .cards {
+  border: none;
+  margin: 0px;
+  width: 30%;
+  margin-right: 20px;
+  float: left;
+}
+
+body .container3 .cards .card-body {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+body .container3 .cards .card-body .card-text {
+  text-align: left;
+  margin-left: 0px;
+}
+
+body .container3 .card1 {
+  margin-left: 150px;
+}
+
+body .container3 .card2 .cardimg {
+  margin-top: 0px;
+}
+
+body .container3 .card2 .cardimg .cimg {
+  margin-top: 0;
+  height: 353px;
+  overflow: hidden;
+}
+
+body .container3 .card2 .cardimg .cimg img {
+  margin-top: -320px;
+}
+
+body .container3 div {
+  margin-top: 30px;
+}
+
+body footer {
+  margin-top: 500px;
 }
 /*# sourceMappingURL=main.css.map */

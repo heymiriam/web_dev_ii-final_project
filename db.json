@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "_id": 0,
+      "story": "I was waiting for the train when two security staff came into the train. Inside, there were two rats on a seat. Each one pick a rat and one of the rats went inside his uniform. He couldn't get rid of the rat."
+    },
+    {
+      "_id": 1,
+      "story": "I was working at Starbucks when a customer asked me if I've seen a teeth. He lost it!"
+    },
+    {
+      "_id": 2,
+      "story": "I was a scout for two years."
+    },
+    {
+      "_id": 3,
+      "story": "I am left-handed."
+    },
+    {
+      "_id": 4,
+      "story": "I've been acting in a hip hop music video and a tv promo acting as a couple with an old man."
+    },
+    {
+      "_id": 5,
+      "story": "Id consequat consectetur sunt tempor excepteur consectetur Lorem labore aliquip reprehenderit ea."
+    },
+    {
+      "_id": 6,
+      "story": "I was in a tent sleeping with some friends while camping, when a mistery criature came around the tent, smelling everything around. The noise woke me up and I thought my friends were sleeping so, I didn't make any noise and wait until the criature left. The next day, we were discusing what kind of criature could be and we conclude that it was a bear!"
+    },
+    {
+        "_id": 7,
+        "story": "Starbucks: I was attending two customers and they started to fight trying to pay first. I just could look how they were shouting and pushing each other so hard than move the plexiglass."
+      },
+      {
+        "_id": 8,
+        "story": "Starbucks: I was alone working when a thief try to steal some merchadise. I went fast to the merchandise and I grabbed a thermo and I hit him while he was stealing. I could save some stuff at least."
+      },
+      {
+        "_id": 9,
+        "story": "I was in my college when the firefighters came. Apparently, someone burnt the popcorns in the microwave."
+      }
+    
+  ],
+  "stories": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}

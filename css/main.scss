@@ -143,6 +143,16 @@ body{
             }
             
         }
+
+        .container4{
+            background-color:$-blue;
+            width:100%;
+            h4{
+                color:white;
+                font-size:30px;
+
+            }
+        }
     }
 
 
@@ -218,6 +228,7 @@ body{
       margin:0;
   }
   .container3{
+      height:800px;
       h3{
         font-size:60px;
 
@@ -264,10 +275,11 @@ body{
     }
     .card2{
         .cardimg{
+            
             margin-top:0px;
             .cimg{
             margin-top:0;
-            height:353px;
+            height:350px;
             overflow: hidden;
             
                 img{
@@ -281,6 +293,25 @@ body{
     div{
         margin-top:30px;
     }
+  }
+  .container4{
+      width:100%;
+      background-color:$-blue;
+      h4{
+        font-size:60px;
+        width:90%;
+        text-decoration:overline;
+        color:white;
+        font-weight:700;
+        text-align:left;
+        padding-top:80px;
+      }
+      button{
+          width:10%;
+          font-weight: 600;
+          font-size:18px;
+          margin:auto;
+      }
   }
   footer{
       margin-top:500px;

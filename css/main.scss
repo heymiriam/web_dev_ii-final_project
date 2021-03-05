@@ -213,10 +213,49 @@ body{
          .gridimg12{
              overflow:hidden;
          }
+         .pic {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .pic:hover > .overlay {
+              position: absolute;
+              top: 0;
+              width:100%;
+              height:100%;
+              left: 0;
+              background-color:#000;
+              opacity:0.5;
+              z-index: 100;
+              display: block;
+          }
+          
+          .info {
+            display: none;
+            position: absolute;
+            top: 100px;
+            left: 0;
+            color:white;
+            z-index: 100;
+            text-align: center;
+          }
+          .portimg1{
+              transition:transform .2s;
+              :hover{
+                  transform:scale(1.5);
+              }
+          }
+         .portfolio1{padding:0px;
+             img{
+                width: 100%;
+                
+             }
+         }
          img
          {
          width: 100%;
          margin: 10px 0px;
+         padding:0px;
          }
      } 
   }
@@ -272,19 +311,35 @@ body{
     }
     .card1{
         margin-left:150px;
+        overflow: hidden;
+        .america{
+            
+            transition:transform .5s;
+        }
+        .america:hover{
+            transform:scale(1.5);
+            cursor:pointer;
+        }
     }
     .card2{
         .cardimg{
             
             margin-top:0px;
+            
             .cimg{
             margin-top:0;
             height:350px;
             overflow: hidden;
             
-                img{
+                .europe{
                     margin-top:-320px;
+                    transition:transform .5s;
+              
 
+                }
+                .europe:hover{
+                    transform:scale(1.5);
+                    cursor:pointer;
                 }
             }
             
@@ -297,23 +352,28 @@ body{
   .container4{
       width:100%;
       background-color:$-blue;
+      padding-bottom:30px;
       h4{
         font-size:60px;
         width:90%;
         text-decoration:overline;
         color:white;
         font-weight:700;
-        text-align:left;
+        text-align:center;
+        margin:auto;
         padding-top:80px;
+        
+      }
+      ul{
+          color:white;
+          text-align:center;
       }
       button{
           width:10%;
           font-weight: 600;
           font-size:18px;
-          margin:auto;
+          margin:50px auto;
       }
   }
-  footer{
-      margin-top:500px;
-  }
+ 
 }

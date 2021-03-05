@@ -24,8 +24,26 @@
             <div class="pos-f-t" style="width:100%">
                 <div class="collapse" id="navbarToggleExternalContent">
                   <div class="bg-dark p-4">
-                    <h4 class="text-white">Collapsed content</h4>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                    <ul class="navbar-nav mr-auto">
+                        <!--<li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>-->
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Professional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Travel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cooking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Art</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Facts</a>
+                        </li>
+                    </ul>
                   </div>
                 </div>
                 <nav class="navbar navbar-dark bg-dark">
@@ -38,38 +56,23 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <!--<li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>-->
+            
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Professional</a>
+                  <a class="nav-link" href="#professional">Professional</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Travel</a>
+                    <a class="nav-link" href="#travel">Travel</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cooking</a>
+                    <a class="nav-link" href="#cooking">Cooking</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Art</a>
+                    <a class="nav-link" href="#art">Art</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Facts</a>
+                    <a class="nav-link" href="#facts">Facts</a>
                 </li>
-                <!--<li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li>-->
+                
               </ul>
               <form class="form-inline my-2 my-lg-0">
                 <button class="btn my-2 my-sm-0 bg-primary text-light " type="submit">Contact</button>
@@ -163,21 +166,29 @@
             <div class="container-fluid container2">
                 <div class="row">
                     <div class="col-3">
-                        <img src="assets/port4.png" alt="Lights" >
-                        <img src="assets/port9.png" alt="Lights" >
+                        <div class="pic">
+                            <img class="portimg1" src="assets/port4.png" alt="Lights" >
+                            <div class="info">
+                                <p class="info">VIFF</p>
+                            </div>
+                            <div class="overlay"></div>
+                            
+                        </div>
+                        
+                        <img class="portfolio2" src="assets/port9.png" alt="Lights" >
                     </div>
                     <div class="col-3">
-                        <img src="assets/port10.png" alt="Lights" >
-                        <img src="assets/port2.png" alt="Lights" >
+                        <img class="portfolio3" src="assets/port10.png" alt="Lights" >
+                        <img class="portfolio4" src="assets/port2.png" alt="Lights" >
                     </div>
                     <div class="col-3 column3">
-                        <img src="assets/port7.png" alt="Lights" >
-                        <img src="assets/port6.png" alt="Lights" >
-                        <img src="assets/port5.png"alt="Lights" >
+                        <img class="portfolio5" src="assets/port7.png" alt="Lights" >
+                        <img class="portfolio6" src="assets/port6.png" alt="Lights" >
+                        <img class="portfolio7" src="assets/port5.png"alt="Lights" >
                     </div>
                     <div class="col-3">
-                        <img src="assets/port11.png" alt="Lights" >
-                        <img class="gridimg12" src="assets/port12.png" alt="Lights" >
+                        <img class="portfolio8" src="assets/port11.png" alt="Lights" >
+                        <img class="gridimg12 portfolio9" src="assets/port12.png" alt="Lights" >
                     </div>
                   </div>
             </div>    
@@ -190,7 +201,9 @@
         
             <div class="card cards card1" data-toggle="modal" data-target=".bd-example-modal-lg">
                 
-                <img class="card-img-top" src="assets/america.jpg" alt="Card image cap">
+                <div class="cardimg container-fluid">
+                    <img class="card-img-top america" src="assets/america.jpg" alt="Card image cap">
+                </div>
                 <div class="card-body">
                     <p class="card-text">America</p>
                   </div>  
@@ -200,7 +213,7 @@
                 
               <div class="cardimg container-fluid">
                 <div class="cimg container-fluid">
-                    <img class="card-img-top " src="assets/europe.jpg" alt="Card image cap">
+                    <img class="card-img-top europe" src="assets/europe.jpg" alt="Card image cap">
                 </div>
                 <div class="card-body container-fluid">
                     <p class="card-text">Europe</p>
@@ -250,7 +263,7 @@
         </div>
         
         <div class="container-fluid container4">
-            <h4 class="d-flex justify-content-center">Fun Fact: I'm a factory of fun facts</h4>
+            <h4 class="d-flex justify-content-center">Fun Fact: I'm a factory of fun facts and stories</h4>
             <ul id="api"></ul>
             <button type="button" class="display-btn d-flex justify-content-center btn my-2 my-sm-0 bg-light text-primary">Pick a Fun Fact</button>
         </div>
@@ -269,9 +282,22 @@
           </footer>    
         <script>
             
+
+
             $('.carousel').carousel({
             interval: 2000
-            })
+            });
+
+
+            $(".pic").hover(
+        function(){
+                $(".info", this).css("display", "block");
+            }, function(){
+                $(".info", this).css("display", "none");
+        },function(){
+                $(".info", this).css("color", "white");
+        });
+
         </script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

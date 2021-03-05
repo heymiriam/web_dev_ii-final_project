@@ -116,3 +116,10 @@ document.querySelector(".display-btn").addEventListener("click", ()=>{
 
 })*/
 
+
+
+
+//Mouseover
+document.querySelector(".portfolio1").addEventListener("mouserover",()=>{
+    document.querySelector(".portfolio1").style.backgroundColor='black';
+});
